@@ -1,6 +1,6 @@
 # GitVersionhallinta
 
-1. (Forkkaa ja) Pullaa tämä repository
+1. (Forkkaa ja) Pullaa tämä repository. (Oikealta yhlhäältä tällä sivulla klikkaa Fork, create fork (omaan githubiisi), kopioi sen kloonauslinkki. Mene gitbashissa valitsemaasi kansioon (~/source/repos/Gitkurssitehtävä/) ja suorita git clone omasta forkkauksestasi saamasi kloonauslinkkisi kanssa.)
 2. Luo pullaamaasi Master haaraan oma branch ja nimeä se omalla nimelläsi // git branch ohjeet esim googlaamalla tai  materiaalia lukemalla
 3. Lisää muokkaajat tiedostoon oma rivisi, jossa kerrot lempivärisi tai harrastuksesi. Muista laittaa riville myös oma nimesi. // voit käyttää joko nano-editoria tai muistiota
 4. Luo kansio ja nimeä se GitHub tunnuksellasi Git Bashissa (mkdir) Kansiot kansioon ja lisää luomaasi kansioon tiedosto peli.txt käyttäen echo käskyä, kirjoita tiedostoon sen pelin nimi, jota viimeksi pelasit //open esimerkki:  
