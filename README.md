@@ -10,6 +10,15 @@
       echo "Far Cry 6" >> peli.txt
       
 5. Lisää muutoksesi Staging Areaan ja suorita Commit
-6. Tarkista että lokaali branch on ajan tasalla master branchin kanssa käyttämällä seuraavia komentoja: checkout, fetch, ja pull. Sitten Checkouttaa takaisin omalle branchillesi ja tee merge.
+6. Tarkista että lokaali branch on ajan tasalla master branchin kanssa käyttämällä seuraavia komentoja: checkout, fetch, ja pull. Sitten Checkouttaa takaisin omalle branchillesi ja tee merge. Mikäli merge ei jostain syystä git bash -sovelluksessa onnistu voit toteuttaa sen myös omassa Git Hubissasi:
+
+      Git Bashissa, omassa nimikko-branchissasi tee tämä push:
+      git push origin [Branchin nimi]
+      jonka jälkeen GitHubissa /omassa/ GitVersionhallinta repositoryssäsi tee pull request
+      valitse oma branchsisi yhdistettäväksi omaan mainiisi ja suorita merge
+      
 7. Loggaa GitHub tilillesi ja klikkaa Compare & Pull Request projektin remotesta reposta, ja sitten siellä "Create new pull request".
+      
+      Jos GitHub ei automaattisesti tarjoa create new pull requestia klikkaa "Compare across forks" ja valitse oma forkkisi
+      
 8. Pull requestisi tarkistetaan ja lopulta mergetään masteriin.
